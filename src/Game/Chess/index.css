@@ -1,0 +1,81 @@
+.wrapper{
+    text-align: center;
+    padding-top: 1%;
+}
+span{
+    font-size: large;
+}
+input{
+    margin-right: 5px;
+}
+.inputText{
+    margin-right: 10px;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    margin: 1% 2% 0;
+    font-size: large;
+}
+.board{
+    margin: 10px auto;
+    top: 0;
+    bottom: 0;
+    height: 750px;
+    width: 750px;
+    box-shadow: 5px 5px 5px #b9b9b9,-5px -5px 5px #efefef;
+    cursor: pointer;
+    
+}
+.grid{
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    background-image:url('../../../public/data/grid.png');
+    background-size: contain;
+}
+.lt{
+    background-image:url('../../../public/data/grid-angular.png');
+}
+.rt{
+    background-image:url('../../../public/data/grid-angular.png');
+    transform: rotate(90deg);
+}
+.rb{
+    background-image:url('../../../public/data/grid-angular.png');
+    transform: rotate(180deg);
+}
+.lb{
+    background-image:url('../../../public/data/grid-angular.png');
+    transform: rotate(270deg);
+}
+.t{
+    background-image:url('../../../public/data/grid-border.png');
+}
+.r{
+    background-image:url('../../../public/data/grid-border.png');
+    transform: rotate(90deg);
+}
+.b{
+    background-image:url('../../../public/data/grid-border.png');
+    transform: rotate(180deg);
+}
+.l{
+    background-image:url('../../../public/data/grid-border.png');
+    transform: rotate(270deg);
+}
+
+.chess{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: black 1px solid;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
